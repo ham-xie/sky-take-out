@@ -35,6 +35,7 @@ public class Employee implements Serializable {
     //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createTime;
 
+    //这个注释把DATE类型的数据转化成为我们想要的格式。
     //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime updateTime;
 
